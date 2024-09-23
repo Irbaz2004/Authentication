@@ -59,7 +59,7 @@ export default function Login() {
         <h3>SoloGalaxy</h3>
         <h2>Login To Your Account</h2>
         <h5>Premium Membership</h5>
-        <p>If Don't have Account <Link to={'/signup'}><a href="#">Sign Up</a></Link></p>
+        <p>If Don't have Account <Link to={'/'}><a href="#">Sign Up</a></Link></p>
         <form className='login_form' onSubmit={handleLoginSubmit}> 
          
           <label htmlFor="">Email:</label>
